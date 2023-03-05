@@ -1,0 +1,11 @@
+D:\ruan\homework\assignment1\WindowsForms1\bin\Debug\WindowsForms1.exe.config
+D:\ruan\homework\assignment1\WindowsForms1\bin\Debug\WindowsForms1.exe
+D:\ruan\homework\assignment1\WindowsForms1\bin\Debug\WindowsForms1.pdb
+D:\ruan\homework\assignment1\WindowsForms1\obj\Debug\WindowsForms1.csproj.AssemblyReference.cache
+D:\ruan\homework\assignment1\WindowsForms1\obj\Debug\WindowsForms1.csproj.SuggestedBindingRedirects.cache
+D:\ruan\homework\assignment1\WindowsForms1\obj\Debug\WindowsForms1.Form1.resources
+D:\ruan\homework\assignment1\WindowsForms1\obj\Debug\WindowsForms1.Properties.Resources.resources
+D:\ruan\homework\assignment1\WindowsForms1\obj\Debug\WindowsForms1.csproj.GenerateResource.cache
+D:\ruan\homework\assignment1\WindowsForms1\obj\Debug\WindowsForms1.csproj.CoreCompileInputs.cache
+D:\ruan\homework\assignment1\WindowsForms1\obj\Debug\WindowsForms1.exe
+D:\ruan\homework\assignment1\WindowsForms1\obj\Debug\WindowsForms1.pdb
