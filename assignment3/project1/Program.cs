@@ -6,19 +6,19 @@ abstract class shape
 }
 class rectangle : shape
 {
-    double x1,x2,y1, y2;
+    double x1, x2, y1, y2;
     public rectangle()
     {
-        Console.Write("请输入第一条边长：");
+        Console.Write("请输入矩形第一条边长：");
         x1 = double.Parse(Console.ReadLine());
 
-        Console.Write("请输入第二条边长：");
-        x2= double.Parse(Console.ReadLine());
+        Console.Write("请输入矩形第二条边长：");
+        x2 = double.Parse(Console.ReadLine());
 
-        Console.Write("请输入第三条边长：");
-        y1= double.Parse(Console.ReadLine());
+        Console.Write("请输入矩形第三条边长：");
+        y1 = double.Parse(Console.ReadLine());
 
-        Console.Write("请输入第四条边长：");
+        Console.Write("请输入矩形第四条边长：");
         y2 = double.Parse(Console.ReadLine());
     }
     public override double GetAera()
@@ -28,7 +28,7 @@ class rectangle : shape
     }
     public override void IsTrue()
     {
-        if (x1 > 0 && x2 > 0 && y1 > 0 && y2 > 0 && x1 == x2 && y1== y2)
+        if (x1 > 0 && x2 > 0 && y1 > 0 && y2 > 0 && x1 == x2 && y1 == y2)
         {
             Console.WriteLine("合法");
         }
@@ -37,20 +37,20 @@ class rectangle : shape
 }
 class square : shape
 {
-    double a,b,c,d;
+    double a, b, c, d;
     public square()
     {
-        Console.Write("请输入第一条边长：");
-        a= double.Parse(Console.ReadLine());
+        Console.Write("请输入正方形第一条边长：");
+        a = double.Parse(Console.ReadLine());
 
-        Console.Write("请输入第二条边长：");
+        Console.Write("请输入正方形第二条边长：");
         b = double.Parse(Console.ReadLine());
 
-        Console.Write("请输入第三条边长：");
+        Console.Write("请输入正方形第三条边长：");
         c = double.Parse(Console.ReadLine());
 
-        Console.Write("请输入第四条边长：");
-        d= double.Parse(Console.ReadLine());
+        Console.Write("请输入正方形第四条边长：");
+        d = double.Parse(Console.ReadLine());
     }
     public override double GetAera()
     {
@@ -59,7 +59,7 @@ class square : shape
     }
     public override void IsTrue()
     {
-        if (a> 0 && b> 0 && c> 0 && d > 0 && a==b&&b==c&&c==d)
+        if (a > 0 && b > 0 && c > 0 && d > 0 && a == b && b == c && c == d)
         {
             Console.WriteLine("合法");
         }
@@ -68,24 +68,24 @@ class square : shape
 }
 class triangle : shape
 {
-    double a, b, c,s;
+    double a, b, c, s;
     public triangle()
     {
-        Console.Write("请输入第一条边长：");
-        a= double.Parse(Console.ReadLine());
+        Console.Write("请输入三角形第一条边长：");
+        a = double.Parse(Console.ReadLine());
 
-        Console.Write("请输入第二条边长：");
-        b= double.Parse(Console.ReadLine());
+        Console.Write("请输入三角形第二条边长：");
+        b = double.Parse(Console.ReadLine());
 
-        Console.Write("请输入第三条边长：");
+        Console.Write("请输入三角形第三条边长：");
         c = double.Parse(Console.ReadLine());
 
-       
+
     }
     public override double GetAera()
     {
         s = (a + b + c) / 2;
-       
+
         Console.WriteLine(Math.Sqrt(s * (s - a) * (s - b) * (s - c)));
         return Math.Sqrt(s * (s - a) * (s - b) * (s - c));
     }
@@ -105,11 +105,11 @@ class Program
         rectangle A = new rectangle();
         A.IsTrue();
         A.GetAera();
-        square B= new square();
-        B.IsTrue(); 
+        square B = new square();
+        B.IsTrue();
         B.GetAera();
         triangle C = new triangle();
-        C.IsTrue(); 
+        C.IsTrue();
         C.GetAera();
 
     }
