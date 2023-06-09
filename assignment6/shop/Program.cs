@@ -10,12 +10,12 @@ class Program
         OrderService orderService = new OrderService();
 
         Order order1 = new Order("001", "Customer1");
-        order1.AddOrderDetails(new OrderDetails("Product1", 10, 2));
-        order1.AddOrderDetails(new OrderDetails("Product2", 20, 1));
+        order1.AddOrderDetails(new OrderDetail("Product1", 10, 2));
+        order1.AddOrderDetails(new OrderDetail("Product2", 20, 1));
         orderService.AddOrder(order1);
 
         Order order2 = new Order("002", "Customer2");
-        order2.AddOrderDetails(new OrderDetails("Product1", 10, 3));
+        order2.AddOrderDetails(new OrderDetail("Product1", 10, 3));
         orderService.AddOrder(order2);
 
         // 显示所有订单
